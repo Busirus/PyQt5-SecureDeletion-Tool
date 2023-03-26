@@ -2,8 +2,6 @@
 <h1> PyQt5 SecureDeletion Tool </h1>
 </div>
 
-
-
 <div id="header" align="center">
   <img src="https://image.noelshack.com/fichiers/2023/08/5/1677260751-gui.jpg">
 </div>
@@ -20,13 +18,12 @@ With this tool, you can safely delete sensitive files and folders without worryi
 ```bash
 git clone https://github.com/busirus/PyQt5-SecureDeletion-Tool.git
 ```
-2. Make sure that Python 3.x is installed.
 
-3. Install the required libraries by running the following command in the terminal:
+2. Install the required libraries by running the following command in the terminal:
 ```bash
 pip install PyQt5
 ```
-4. Run the program by executing the following command:
+3. Run the program by executing the following command:
 ```bash
 python main.py
 ```
@@ -42,11 +39,6 @@ python main.py
 
 5. Click the "Delete File(s)" button to securely delete the selected files, you can recheck selection and confirm the deletion.
 
-
-# How it works
-The Secure File Deletion Tool overwrites the selected file(s) or folder(s) with random data using the os.urandom function in Python's os library. This overwriting process ensures that the original file data is permanently erased and cannot be recovered using data recovery software. After overwriting the file, the tool then deletes it using the os.remove function.
-
-If the selected item is a folder, the tool will recursively delete all files and folders within it before deleting the folder itself.
 
 # License 
 This project is licensed under the MIT License. 
